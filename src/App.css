@@ -4,10 +4,10 @@
   width: 100%;
 }
 .top{
-  width: 100%;
   background-color: rgb(26, 25, 25);
   display: flex;
   padding-bottom: 5%;
+  flex-wrap: wrap;
 }
 .h-con{
   padding-top: 5%;
@@ -43,11 +43,12 @@
   
 }
 .img-con img{
+  transition: all 1s;
   width: 80%;
   border: 1.5rem solid rgb(36, 31, 31);
 }
 .img-con p{
-  align-self:flex-end ;
+  align-self:center;
   width: 40%;
   color:rgb(122, 122, 122);
 }
@@ -66,7 +67,12 @@
 }
 .hd-pop{
   height: 70vh;
-  width:100%;
+  width: 100vw;
+  position: absolute;
+}
+.hd-img{
+  width: 80%;
+  height: 50vh;
 }
 .bottom{
   display: flex;
